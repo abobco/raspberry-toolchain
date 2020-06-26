@@ -2,7 +2,7 @@
 
 # ------------------------ non portable part ------------------------------------
 
-# give path to prebuilt toolchain
+# give path to your toolchain 
 set(TOOLCHAIN_PATH "D:/SysGCC" CACHE PATH "Path to your raspberry toolchain")
 set(GCC_ARM_TOOLCHAIN "${TOOLCHAIN_PATH}/raspberry/arm-linux-gnueabihf")
 set(GCC_ARM_LINKER_EXE "${TOOLCHAIN_PATH}/raspberry/bin/arm-linux-gnueabihf-ld.exe")

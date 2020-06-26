@@ -9,5 +9,6 @@ project(example)
 set(CMAKE_BUILD_TYPE Debug)
 
 add_executable(${PROJECT_NAME} src/main.c)
+
 # link all required libraries to the executable
 # target_link_libraries(${PROJECT_NAME} pthread dl websockets)
