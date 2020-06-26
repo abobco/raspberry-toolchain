@@ -5,9 +5,10 @@ include(armhf-toolchain.cmake)
 
 project(example)
 
- # build a debug symbol table for gdb
+# build a debug symbol table for gdb
 set(CMAKE_BUILD_TYPE Debug)
 
+# build the exe
 add_executable(${PROJECT_NAME} src/main.c)
 
 # link all required libraries to the executable

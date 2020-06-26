@@ -1,6 +1,6 @@
 # arm-hardfloat toolchain file using clang with a prebuilt raspberry-pi sysroot/linker
 
-# ------------------------ non portable part ------------------------------------
+# ------------------------ important part ---------------------------------------
 
 # give path to your toolchain 
 set(TOOLCHAIN_PATH "D:/SysGCC" CACHE PATH "Path to your raspberry toolchain")
@@ -37,6 +37,7 @@ set(CMAKE_C_FLAGS " ${CMAKE_C_FLAGS} --target=${TARGET_TRIPLE} --sysroot=${CMAKE
 # Search for programs in the build host directories
 set(CMAKE_FIND_ROOT_PATH ${CMAKE_SYSROOT})
 set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
+
 # For libraries and headers in the target directories
 set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
 set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
