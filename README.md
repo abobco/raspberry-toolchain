@@ -8,7 +8,7 @@ Windows
 -----------------------
 1. Download and install [clang](https://releases.llvm.org/download.html) to your system path. You can either download a prebuilt binary from that link, or download it from the LLVM git & build it from source
 
-2. Download & install a [raspberry pi toolchain](https://gnutoolchains.com/raspberry/). At the time of writing, the **raspberry-gcc8.3.0-r2.exe** link is probably what you want
+2. Download and install a [raspberry pi toolchain](https://gnutoolchains.com/raspberry/). At the time of writing, the **raspberry-gcc8.3.0-r2.exe** link is probably what you want
 
 3. Install the [ninja build system](https://github.com/ninja-build/ninja/releases) to your system path
 
