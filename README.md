@@ -1,6 +1,6 @@
 # raspberry pi CMake toolchain
 
-This is an example CMake project for cross compiling C/C++ code to arm hard float processors such as those in raspberry pis.
+Example CMake project for cross compiling C/C++ code to arm hard float processors such as those in raspberry pis.
 
 ## Setup
 
